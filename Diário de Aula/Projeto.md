@@ -1,0 +1,1 @@
+O projeto que estarei realizando, é um app de controle de finanças ou gastos. 
