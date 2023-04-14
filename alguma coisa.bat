@@ -14,6 +14,8 @@ ECHO .
 
 git -c "user.name=%name%" -c "user.email=%email%" commit -m "%commitMessage%"
 
+git push -u origin main
+
 ECHO ***************************************************
 ECHO Obrigado por nao zoar as credenciais git da maquina
 ECHO ***************************************************
