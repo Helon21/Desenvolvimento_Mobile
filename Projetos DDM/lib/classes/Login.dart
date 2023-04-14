@@ -1,23 +1,21 @@
-import 'package:aula_rotas/classes/Home.dart';
+import 'package:aula_layouts/classes/Home.dart';
+import 'package:aula_layouts/classes/PaginaInicial.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget{
+class Login extends StatelessWidget {
   const Login({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Seja Bem Vindo(a), por favor faça login ou crie sua conta')),
+      appBar: AppBar(title: const Text('Login')),
       body: ElevatedButton(
-        child: const Text('Home'),
-        onPressed: (){
-          Route rota = MaterialPageRoute(builder: (context) => Home());
-          //Navigator.of(context).push(rota);
+        child: const Text('Realizar Login'),
+        onPressed: () {
+          Route rota = MaterialPageRoute(builder: (context) => PaginaInicial());
           Navigator.push(context, rota);
         },
       ),
     );
   }
-
-
 }

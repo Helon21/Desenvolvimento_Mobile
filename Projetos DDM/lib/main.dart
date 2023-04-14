@@ -1,4 +1,4 @@
-import 'package:aula_rotas/classes/App.dart';
+import 'package:aula_layouts/classes/App.dart';
 import 'package:flutter/material.dart';
 
 void main() {
