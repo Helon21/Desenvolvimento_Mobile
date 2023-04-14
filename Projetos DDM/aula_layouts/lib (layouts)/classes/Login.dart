@@ -1,4 +1,3 @@
-import 'package:aula_layouts/classes/Home.dart';
 import 'package:aula_layouts/classes/PaginaInicial.dart';
 import 'package:flutter/material.dart';
 

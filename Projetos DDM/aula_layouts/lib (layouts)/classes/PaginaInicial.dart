@@ -7,6 +7,7 @@ class PaginaInicial extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Página Inicial')),
+      body: Row(),
     );
   }
 }
