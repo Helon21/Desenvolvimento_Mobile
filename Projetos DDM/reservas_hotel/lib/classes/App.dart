@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'Cadastro.dart';
 import 'DetalhesReserva.dart';
 import 'HistoricoHoteis.dart';

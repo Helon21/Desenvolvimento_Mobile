@@ -13,10 +13,6 @@ class TelaInicial extends StatelessWidget {
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            width: 100,
-            child: TextFormField(),
-          ),
           ElevatedButton(
             child: const Text('Ver lista de Hotéis'),
             onPressed: () {

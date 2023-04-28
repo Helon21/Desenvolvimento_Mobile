@@ -9,7 +9,7 @@ class ListaHoteis extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lista de hoteis disponíveis'),
+        title: const Text('Lista de hoteis disponíveis'),
       ),
       body: ListView(
         children: [
