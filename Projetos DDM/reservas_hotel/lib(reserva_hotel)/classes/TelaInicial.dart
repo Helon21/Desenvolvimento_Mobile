@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'HistoricoHoteis.dart';
 import 'ListaHoteis.dart';
 
 class TelaInicial extends StatelessWidget {
@@ -20,6 +21,13 @@ class TelaInicial extends StatelessWidget {
             child: const Text('Ver lista de Hotéis'),
             onPressed: () {
               Route rota = MaterialPageRoute(builder: (context) => ListaHoteis());
+              Navigator.push(context, rota);
+            },
+          ),
+          ElevatedButton(
+            child: const Text('Histórico de reservas'),
+            onPressed: () {
+              Route rota = MaterialPageRoute(builder: (context) => HistoricoHoteis());
               Navigator.push(context, rota);
             },
           ),

@@ -8,9 +8,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:reservas_hotel/main.dart';
-
 import '../lib(reserva_hotel)/classes/App.dart';
+
+
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
