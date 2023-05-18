@@ -1,0 +1,14 @@
+o stateless é melhor em desempenho, porém ele executa uma vez apenas, e caso você altere algo é necessário usar o hot reaload, o statefull pode ser alterado automaticamente a cada mudança
+
+No flutter as telas são desenhadas em frames por segundo
+
+Dados fake são dados que ficam na memória e quando você reinicia o app os dados vão estar lá novamente.
+
+Statless é usado quando algo vai ser mostrado uma vez apenas, por exemplo, o resultado do que foi digitado no formulário.
+
+Praticamente todo formulário é Statefull, mas na parte estática é adequado usar stateless para ter um melhor desempenho.
+
+Se tiver que manter o estado e valores, usar statefull.
+
+Navigator precisa do contexto para poder se situar onde ele está, o contexto passa a sequencia das telas. E através do contexto é possivel passar como argumento o contato.
+
