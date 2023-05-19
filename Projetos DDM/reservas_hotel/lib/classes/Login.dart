@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:reservas_hotel/classes/tela_inicial.dart';
 
-import 'TelaInicial.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});

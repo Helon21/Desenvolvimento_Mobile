@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:reservas_hotel/classes/detalhes_reserva.dart';
 
-import 'DetalhesReserva.dart';
+
 
 class ListaHoteis extends StatelessWidget {
   const ListaHoteis({super.key});

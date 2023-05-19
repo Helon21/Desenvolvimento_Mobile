@@ -1,11 +1,12 @@
+
 import 'package:flutter/material.dart';
-import 'Cadastro.dart';
-import 'DetalhesReserva.dart';
-import 'HistoricoHoteis.dart';
-import 'Home.dart';
-import 'ListaHoteis.dart';
-import 'Login.dart';
-import 'TelaInicial.dart';
+import 'package:reservas_hotel/classes/cadastro.dart';
+import 'package:reservas_hotel/classes/detalhes_reserva.dart';
+import 'package:reservas_hotel/classes/historico_hoteis.dart';
+import 'package:reservas_hotel/classes/home.dart';
+import 'package:reservas_hotel/classes/lista_hoteis.dart';
+import 'package:reservas_hotel/classes/login.dart';
+import 'package:reservas_hotel/classes/tela_inicial.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -19,12 +20,12 @@ class App extends StatelessWidget {
       ),
       routes: {
         '/': (context) => Home(),
-        'Home': (context) => Login(),
-        'Home': (context) => Cadastro(),
-        'Login': (context) => TelaInicial(),
-        'TelaInicial': (context) => ListaHoteis(),
-        'TelaInicial': (context) => HistoricoHoteis(),
-        'ListaHoteis': (context) => DetalhesReserva(),
+        'home': (context) => Login(),
+        'home': (context) => Cadastro(),
+        'login': (context) => TelaInicial(),
+        'tela_inicial': (context) => ListaHoteis(),
+        'tela_inicial': (context) => HistoricoHoteis(),
+        'lista_hoteis': (context) => DetalhesReserva(),
       },
     );
   }

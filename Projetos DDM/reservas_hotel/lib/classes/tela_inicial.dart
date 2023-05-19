@@ -1,7 +1,9 @@
-import 'package:flutter/material.dart';
 
-import 'HistoricoHoteis.dart';
-import 'ListaHoteis.dart';
+import 'package:flutter/material.dart';
+import 'package:reservas_hotel/classes/historico_hoteis.dart';
+import 'package:reservas_hotel/classes/lista_hoteis.dart';
+
+
 
 class TelaInicial extends StatelessWidget {
   const TelaInicial({super.key});
