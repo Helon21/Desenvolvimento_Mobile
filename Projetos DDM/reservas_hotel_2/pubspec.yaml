@@ -38,7 +38,9 @@ dependencies:
   email_validator: 
   sqflite: 
   path: 
-  jwt_io: 
+  jwt_io:
+  mask_text_input_formatter: 
+  brasil_fields:
 
 dev_dependencies:
   flutter_test:
