@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:brasil_fields/brasil_fields.dart';
 
-class LoginUsuario extends StatefulWidget {
-  const LoginUsuario({super.key});
+class Login extends StatefulWidget {
+  const Login({super.key});
 
   @override
-  State<LoginUsuario> createState() => _LoginUsuarioState();
+  State<Login> createState() => _LoginState();
 }
 
-class _LoginUsuarioState extends State<LoginUsuario> {
+class _LoginState extends State<Login> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final _pageController = PageController();
   final _emailController = TextEditingController();
@@ -31,7 +31,7 @@ class _LoginUsuarioState extends State<LoginUsuario> {
     return MaterialApp(
       title: 'Login',
       home: Scaffold(
-        resizeToAvoidBottomInset: true,
+        resizeToAvoidBottomInset: false,
         body: PageView(
           controller: _pageController,
           children: [
@@ -232,7 +232,7 @@ class _LoginUsuarioState extends State<LoginUsuario> {
                       ),
                     ),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   TextButton(
                     onPressed: () {
                       _pageController.animateToPage(
@@ -290,7 +290,7 @@ class _LoginUsuarioState extends State<LoginUsuario> {
                                     return null;
                                   }else{
                                     return 'CNPJ inválido';
-                                  } 
+                                  }
                                 },
                                 decoration: InputDecoration(
                                   labelText: 'CNPJ',
@@ -392,7 +392,7 @@ class _LoginUsuarioState extends State<LoginUsuario> {
                     'assets/images/logo.png',
                     width: 100,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Form(
                     child: Column(
                       children: [

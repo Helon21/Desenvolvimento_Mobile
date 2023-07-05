@@ -9,12 +9,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:reservas_hotel_2/Login.dart';
 
-import 'package:reservas_hotel_2/main.dart';
+import 'package:reservas_hotel_2/Main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const LoginUsuario());
+    await tester.pumpWidget(const Login());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
