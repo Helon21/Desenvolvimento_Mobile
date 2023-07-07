@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reservas_hotel_2/Login.dart';
+import 'package:reservas_hotel_2/Telas/Login.dart';
 
 class Rotas extends StatelessWidget {
   const Rotas ({super.key});
