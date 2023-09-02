@@ -8,8 +8,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-
-import 'package:reservas_hotel_2/Main.dart';
 import 'package:reservas_hotel_2/Telas/Login.dart';
 
 void main() {
