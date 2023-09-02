@@ -1,3 +1,5 @@
+import 'package:reservas_hotel_2/Dto/Reserva.dart';
+
 class Contato{
   final dynamic id;
   final String nome;
@@ -5,6 +7,7 @@ class Contato{
   final String telefone;
   final String endereco;
   final String urlAvatar;
+  final Reserva reserva;
 
 
   Contato({
